@@ -1,0 +1,28 @@
+let score =  "33"
+
+// console.log(typeof score)
+let valueinNumber = Number(score) // string value convert into number
+// console.log(typeof valueinNumber) 
+// console.log(valueinNumber)
+/*
+"33" - 33
+"33abc" - nan
+true - 1
+false -0
+null - 0
+undefined - nan
+*/
+
+let isboolean = "ashi"
+console.log(Boolean(isboolean))
+/*
+1 = true
+0 = false
+"" = false
+"ashi" = true
+*/
+
+let someone = 33
+let instring = String(someone)
+console.log(instring)
+console.log(typeof instring)
