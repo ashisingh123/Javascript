@@ -14,7 +14,7 @@ undefined - nan
 */
 
 let isboolean = "ashi"
-console.log(Boolean(isboolean))
+// console.log(Boolean(isboolean))
 /*
 1 = true
 0 = false
@@ -24,5 +24,21 @@ console.log(Boolean(isboolean))
 
 let someone = 33
 let instring = String(someone)
-console.log(instring)
-console.log(typeof instring)
+// console.log(instring)
+// console.log(typeof instring)
+
+
+//              ************************** OPERATIONS *******************************************
+
+let name1 ="Ashi "
+let name2 ="Singh"
+// console.log(name1+ name2)
+
+// console.log("1" + 2)
+// console.log(1+"2")
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+
+let gamecounter =100
+gamecounter++;
+console.log(gamecounter)
