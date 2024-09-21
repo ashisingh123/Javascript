@@ -1,0 +1,16 @@
+let myname ="ashi"
+let name1 = myname;
+
+name1 = "ashi singh"; //copy of myname, not a real reference
+console.table([myname, name1])
+
+let obj ={
+    name2:"ashi",
+    age:18
+}
+
+let myobj = obj; // not a copy of reference it is real reference
+obj.age =19;
+
+console.log(obj)
+console.log(myobj)
