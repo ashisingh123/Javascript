@@ -1,0 +1,15 @@
+const name ="ashi";
+const repoCount = 34;
+
+console.log(`hello my name is ${name} and my repoCount is ${repoCount}`);
+
+const gameName = new String (`ashiSingh`)
+console.log(gameName[0])
+
+/*
+Tolowwercase
+touppercase
+length
+charAt
+indexof
+*/
